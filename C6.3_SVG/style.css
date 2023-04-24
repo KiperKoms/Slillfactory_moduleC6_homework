@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+.btn_icon {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+}
+
+.bi{
+  margin-left: 20%;
+}
+
+.btn{
+  display: flex;
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+} 
+a.btn:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a.btn:active { background: rgb(152,15,0); } /* при нажатии */

@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background-color: rgb(209, 209, 209); 
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  width: 40px;
+	height: 40px;
+}
+main {
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+}
+.input-field{
+  width: 700px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.message{
+  width: 400px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.btn{
+  width: 100px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.output-field {
+  width: 700px;
+  min-height: 600px;
+	height: 100%;
+  background-color: rgb(202, 244, 247);
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 25%;  
+}
+
+.input-message{
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-left: 70%;
+}
+.response-message{
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-right: 70%;
+}
+
